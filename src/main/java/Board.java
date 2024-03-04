@@ -29,7 +29,7 @@ public class Board extends JFrame {
             }
         }
 
-        this.setLocationRelativeTo((Component)null);
+//        this.setLocationRelativeTo((Component)null);
         GridLayout gridLayout = new GridLayout(Constant.BOARD_WIDTH, Constant.BOARD_HEIGHT);
         this.setLayout(gridLayout);
         this.setSize(Constant.BOARD_HEIGHT * Constant.SQUARE_SIZE, Constant.BOARD_HEIGHT * Constant.SQUARE_SIZE);
